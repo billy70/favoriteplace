@@ -146,6 +146,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="learnMoreButton" destination="5Kd-mW-tbA" id="X44-zf-mWX"/>
+                        <outlet property="photosButton" destination="7Iz-z8-QhZ" id="ZLK-tQ-lxD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
