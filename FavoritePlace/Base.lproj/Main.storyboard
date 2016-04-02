@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="428" y="387"/>
         </scene>
-        <!--View Controller-->
+        <!--Information View Controller-->
         <scene sceneID="Ipa-Zy-cNb">
             <objects>
-                <viewController id="FhZ-SJ-SYw" sceneMemberID="viewController">
+                <viewController id="FhZ-SJ-SYw" customClass="InformationViewController" customModule="FavoritePlace" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xn0-0f-jRH"/>
                         <viewControllerLayoutGuide type="bottom" id="YIP-co-lMB"/>
@@ -258,7 +258,7 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBh-Tv-ghU">
+                                    <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBh-Tv-ghU">
                                         <rect key="frame" x="228" y="512" width="104" height="48"/>
                                         <color key="backgroundColor" red="0.32156862749999998" green="0.56470588239999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -271,6 +271,9 @@
                                         <variation key="heightClass=compact">
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                                         </variation>
+                                        <connections>
+                                            <action selector="backButtonTapped:" destination="FhZ-SJ-SYw" eventType="touchUpInside" id="InE-Fp-ASC"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -283,6 +286,9 @@
                             <constraint firstItem="e6L-Kj-PAa" firstAttribute="top" secondItem="Xn0-0f-jRH" secondAttribute="bottom" id="rp0-Yr-Fg6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="KBh-Tv-ghU" id="95X-JI-ENC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pcz-pd-JmQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
