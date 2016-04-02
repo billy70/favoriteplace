@@ -10,12 +10,16 @@ import UIKit
 
 class PhotosViewController: UIViewController {
 
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var backButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        containerView.layer.cornerRadius = 12.0
+        containerView.layer.borderWidth = 1.0
+        containerView.layer.borderColor = UIColor.grayColor().CGColor
         backButton.layer.cornerRadius = 6.0
     }
 
