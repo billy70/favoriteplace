@@ -297,10 +297,10 @@
             </objects>
             <point key="canvasLocation" x="1142" y="387"/>
         </scene>
-        <!--View Controller-->
+        <!--Photos View Controller-->
         <scene sceneID="IcU-6e-ggc">
             <objects>
-                <viewController id="h6W-sM-lm9" sceneMemberID="viewController">
+                <viewController id="h6W-sM-lm9" customClass="PhotosViewController" customModule="FavoritePlace" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rd8-ic-xBw"/>
                         <viewControllerLayoutGuide type="bottom" id="bkn-zQ-vSy"/>

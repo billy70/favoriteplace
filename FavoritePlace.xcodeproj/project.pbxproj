@@ -13,6 +13,7 @@
 		D3773A831CAEF6D8007F2EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3773A821CAEF6D8007F2EF2 /* Assets.xcassets */; };
 		D3773A861CAEF6D8007F2EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3773A841CAEF6D8007F2EF2 /* LaunchScreen.storyboard */; };
 		D3773A8E1CAF5290007F2EF2 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3773A8D1CAF5290007F2EF2 /* InformationViewController.swift */; };
+		D3A256E21CB00F100023EB75 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A256E11CB00F100023EB75 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3773A851CAEF6D8007F2EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3773A871CAEF6D8007F2EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3773A8D1CAF5290007F2EF2 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		D3A256E11CB00F100023EB75 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D3773A841CAEF6D8007F2EF2 /* LaunchScreen.storyboard */,
 				D3773A871CAEF6D8007F2EF2 /* Info.plist */,
 				D3773A8D1CAF5290007F2EF2 /* InformationViewController.swift */,
+				D3A256E11CB00F100023EB75 /* PhotosViewController.swift */,
 			);
 			path = FavoritePlace;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3773A7E1CAEF6D8007F2EF2 /* ViewController.swift in Sources */,
+				D3A256E21CB00F100023EB75 /* PhotosViewController.swift in Sources */,
 				D3773A7C1CAEF6D8007F2EF2 /* AppDelegate.swift in Sources */,
 				D3773A8E1CAF5290007F2EF2 /* InformationViewController.swift in Sources */,
 			);
@@ -291,6 +295,7 @@
 				D3773A8C1CAEF6D8007F2EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
